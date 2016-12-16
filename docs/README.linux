@@ -89,7 +89,7 @@ The command to get the build dependencies, used to compile the version on the PP
 4. How to compile
 -----------------------------------------------------------------------------
 
-These directions can get out of date. The latest directions are usually in <repo root>/.travis.yml.
+These directions can get out of date. You can find the latest directions in <repo root>/.travis.yml.
 
 To create the Kodi executable manually perform these steps:
 
@@ -116,6 +116,8 @@ For example.
 -----------------------------------------------------------------------------
 4.4. Binary addons - compile
 -----------------------------------------------------------------------------
+
+NOTE: Outdated. See travis.yml as mentioned above in section 4.
 
 From v14 with commit 4090a5f a new API for binary addons is available.
 You can compile all addons or only specific addons by specifying e.g. ADDONS="audioencoder.foo pvr.bar audiodecoder.baz"
