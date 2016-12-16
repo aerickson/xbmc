@@ -95,7 +95,7 @@ To create the Kodi executable manually perform these steps:
 
  .0 mkdir build && cd build
  
- .1 cmake -DCMAKE_BUILD_TYPE=Debug ../project/cmake
+ .1 cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_INSTALL_PREFIX=<system prefix> ../project/cmake
  
  .2 make -j4 && make check
  
