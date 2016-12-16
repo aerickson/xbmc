@@ -89,6 +89,8 @@ The command to get the build dependencies, used to compile the version on the PP
 4. How to compile
 -----------------------------------------------------------------------------
 
+These directions can get out of date. The latest directions are usually in <repo root>/.travis.yml.
+
 To create the Kodi executable manually perform these steps:
 
  .0 mkdir build; cd build
