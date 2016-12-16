@@ -90,19 +90,17 @@ The command to get the build dependencies, used to compile the version on the PP
 -----------------------------------------------------------------------------
 
 To create the Kodi executable manually perform these steps:
-.0  $ ./bootstrap
-
-.1  $ ./configure <option1> <option2> PREFIX=<system prefix>... (See --help for available options)
+.0  $ ./configure <option1> <option2> PREFIX=<system prefix>... (See --help for available options)
        A full listing of supported options can be viewed by typing './configure --help'.
 
-.2  $ make
+.1  $ make
 
 Tip: By adding -j<number> to the make command, you describe how many
      concurrent jobs will be used. So for dualcore the command is:
 
     $ make -j2
 
-.3  $ sudo make install
+.2  $ sudo make install
 
 This will install Kodi in the prefix provided in 4.1 as well as a launcher script.
 
