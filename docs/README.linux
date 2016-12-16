@@ -93,11 +93,11 @@ These directions can get out of date. The latest directions are usually in <repo
 
 To create the Kodi executable manually perform these steps:
 
- .0 mkdir build; cd build
+ .0 mkdir build && cd build
  
  .1 cmake -DCMAKE_BUILD_TYPE=Debug ../project/cmake
  
- .2 make -j4 && make check;
+ .2 make -j4 && make check
  
  Tip: By adding -j<number> to the make command, you describe how many
      concurrent jobs will be used. So for dualcore the command is:
